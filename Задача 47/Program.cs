@@ -16,7 +16,7 @@ PrintArray(array);
 
 //МЕТОДЫ
 
-int GetNumberFromConsole(string text)// метод получение данных с консоли в виде текста
+int GetNumberFromConsole(string text)
 {
     Console.WriteLine(text);
     return Convert.ToInt32(Console.ReadLine());
